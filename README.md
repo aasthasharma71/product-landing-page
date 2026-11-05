@@ -3,10 +3,6 @@
 
 A modern, responsive product landing page for TaskFlow, a fictional productivity and task management platform. The website presents product features, pricing plans, frequently asked questions, and clear call-to-action sections.
 
-## 🌐 Live Demo
-
-Coming soon – GitHub Pages deployment.
-
 ## ✨ Features
 
 - Modern and responsive landing page design.
