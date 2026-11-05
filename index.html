@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="TaskFlow helps teams organize projects, manage tasks and improve productivity.">
+
+    <title>TaskFlow - Manage Work Smarter</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header" id="home">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">✦</span>
+                TaskFlow
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#pricing" class="nav-button">Get Started</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <main>
+
+        <section class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-label">✨ WORK SMARTER, NOT HARDER</span>
+
+                    <h1>Organize your work.<br>
+                        <span>Achieve more.</span>
+                    </h1>
+
+                    <p>
+                        TaskFlow helps you manage projects, organize daily tasks
+                        and collaborate with your team — all in one simple workspace.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#pricing" class="primary-button">Get Started →</a>
+                        <a href="#features" class="secondary-button">Explore Features</a>
+                    </div>
+
+                    <div class="hero-note">
+                        ✓ Easy to use &nbsp; ✓ Stay organized &nbsp; ✓ Work efficiently
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-top">
+                            <div>
+                                <span class="dashboard-small">WORKSPACE</span>
+                                <h3>My Dashboard</h3>
+                            </div>
+                            <span class="avatar">A</span>
+                        </div>
+
+                        <div class="task-summary">
+                            <div>
+                                <span>Completed Tasks</span>
+                                <h2>24</h2>
+                            </div>
+                            <div class="completion">80%</div>
+                        </div>
+
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+
+                        <h4>Today's Tasks</h4>
+
+                        <div class="task-item">
+                            <span class="task-check">✓</span>
+                            <span>Complete project design</span>
+                            <span class="task-tag purple">Done</span>
+                        </div>
+
+                        <div class="task-item">
+                            <span class="task-check">✓</span>
+                            <span>Review team progress</span>
+                            <span class="task-tag green">Done</span>
+                        </div>
+
+                        <div class="task-item">
+                            <span class="task-pending"></span>
+                            <span>Prepare weekly report</span>
+                            <span class="task-tag orange">Pending</span>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card">
+                        <span>🚀</span>
+                        <div>
+                            <strong>Great progress!</strong>
+                            <p>You're doing amazing.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Features Section -->
+        <section class="features section-padding" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">OUR FEATURES</span>
+                    <h2>Everything you need to <span>stay productive</span></h2>
+                    <p>Simple tools that make managing your work easier.</p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-icon purple-bg">📋</div>
+                        <h3>Task Management</h3>
+                        <p>Create, organize and track your tasks from one convenient place.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon blue-bg">📊</div>
+                        <h3>Progress Tracking</h3>
+                        <p>Monitor project progress and understand what needs attention.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon orange-bg">🤝</div>
+                        <h3>Team Collaboration</h3>
+                        <p>Keep everyone connected and working towards shared goals.</p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Pricing Section -->
+        <section class="pricing section-padding" id="pricing">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">SIMPLE PRICING</span>
+                    <h2>Choose a plan that <span>works for you</span></h2>
+                    <p>Flexible plans for individuals and growing teams.</p>
+
+                    <div class="billing-toggle">
+                        <span>Monthly</span>
+                        <label class="switch">
+                            <input type="checkbox" id="billing-toggle"
+                                aria-label="Switch to annual billing">
+                            <span class="slider"></span>
+                        </label>
+                        <span>Annually <small>Save 20%</small></span>
+                    </div>
+                </div>
+
+                <div class="pricing-grid">
+
+                    <article class="price-card">
+                        <h3>Starter</h3>
+                        <p>For individuals getting organized.</p>
+
+                        <div class="price">
+                            <span class="currency">₹</span><span class="amount" data-monthly="0" data-annual="0">0</span>
+                            <span class="period">/ month</span>
+                        </div>
+
+                        <ul>
+                            <li>✓ Up to 5 projects</li>
+                            <li>✓ Basic task management</li>
+                            <li>✓ Personal workspace</li>
+                            <li>✓ Basic progress tracking</li>
+                        </ul>
+
+                        <a href="#faq" class="price-button">Get Started</a>
+                    </article>
+
+
+                    <article class="price-card popular">
+
+                        <span class="popular-label">MOST POPULAR</span>
+
+                        <h3>Professional</h3>
+                        <p>For professionals and small teams.</p>
+
+                        <div class="price">
+                            <span class="currency">₹</span><span class="amount" data-monthly="499" data-annual="399">499</span>
+                            <span class="period">/ month</span>
+                        </div>
+
+                        <ul>
+                            <li>✓ Unlimited projects</li>
+                            <li>✓ Advanced task management</li>
+                            <li>✓ Team collaboration</li>
+                            <li>✓ Detailed progress reports</li>
+                        </ul>
+
+                        <a href="#faq" class="price-button featured-button">Get Started</a>
+                    </article>
+
+
+                    <article class="price-card">
+                        <h3>Enterprise</h3>
+                        <p>For larger teams and organizations.</p>
+
+                        <div class="price">
+                            <span class="currency">₹</span><span class="amount" data-monthly="999" data-annual="799">999</span>
+                            <span class="period">/ month</span>
+                        </div>
+
+                        <ul>
+                            <li>✓ Everything in Professional</li>
+                            <li>✓ Advanced analytics</li>
+                            <li>✓ Priority support</li>
+                            <li>✓ Dedicated workspace</li>
+                        </ul>
+
+                        <a href="#faq" class="price-button">Get Started</a>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAQ Section -->
+        <section class="faq section-padding" id="faq">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">GOT QUESTIONS?</span>
+                    <h2>Frequently Asked <span>Questions</span></h2>
+                    <p>Find answers to common questions about TaskFlow.</p>
+                </div>
+
+                <div class="faq-list">
+
+                    <details class="faq-item">
+                        <summary>What is TaskFlow?</summary>
+                        <p>TaskFlow is a productivity platform designed to help individuals and teams organize projects, manage tasks and track progress.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Can I change my plan later?</summary>
+                        <p>Yes. You can choose a different plan whenever your requirements change.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Does TaskFlow offer a free plan?</summary>
+                        <p>Yes. The Starter plan is free and includes basic task management and personal workspace features.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Is TaskFlow suitable for teams?</summary>
+                        <p>Yes. The Professional and Enterprise plans include features designed for team collaboration.</p>
+                    </details>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container cta-content">
+                <h2>Ready to make your work simpler?</h2>
+                <p>Bring your tasks, projects and team together with TaskFlow.</p>
+                <a href="#pricing" class="cta-button">Explore Plans →</a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo footer-logo">
+                <span class="logo-icon">✦</span>
+                TaskFlow
+            </a>
+
+            <p>Organize your work. Achieve more.</p>
+
+            <p class="copyright">
+                &copy; 2026 TaskFlow. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
